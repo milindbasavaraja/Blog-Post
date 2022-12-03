@@ -1,0 +1,58 @@
+.container navbar {
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  border-radius: 90%;
+  width: 5rem;
+  height: auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  padding-right: 10px;
+}
+
+.user-name {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.log-out {
+  padding-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar-write {
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  border: 1px solid white;
+}
+
+.navbar-write:hover {
+  color: teal;
+  background-color: white;
+  border: 1px solid teal;
+}
+
+.link-write {
+  text-decoration: none;
+  color: inherit;
+}

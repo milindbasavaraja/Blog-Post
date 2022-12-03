@@ -1,0 +1,41 @@
+.menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.menu-h1 {
+  color: #555;
+}
+
+.menu-post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu-post-img {
+  width: 80%;
+  height: 10rem;
+}
+
+.menu-h2 {
+  color: #555;
+}
+
+.menu-button {
+  width: max-content;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid lightseagreen;
+  color: teal;
+}
+
+.menu-button:hover {
+  border: 1px solid white;
+  background-color: lightseagreen;
+  color: white;
+}

@@ -1,0 +1,82 @@
+.write {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.write-content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.write-content-input {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+.write-content-editor-container {
+  height: 300px;
+  overflow: scroll;
+}
+
+.write-content-editor {
+  height: 100%;
+  border: 1px solid lightgray;
+}
+
+.write-menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.write-menu-item {
+  padding: 10px;
+  border: 1px solid lightgray;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #555;
+}
+
+.write-menu-item-h1 {
+  font-size: 20px;
+}
+
+.write-menu-item-input-file {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.write-menu-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.write-menu-buttons-save {
+  cursor: pointer;
+  color: teal;
+  background-color: white;
+  border: 1px solid teal;
+  padding: 3px 5px;
+}
+
+.write-menu-buttons-update {
+  cursor: pointer;
+  color: white;
+  background-color: teal;
+  border: 1px solid teal;
+  padding: 3px 5px;
+}
+
+.write-menu-item-category {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: teal;
+}
