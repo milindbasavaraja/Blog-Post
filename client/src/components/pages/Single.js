@@ -43,6 +43,11 @@ const Single = () => {
     }
   };
 
+  const getText = (html) => {
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    return doc.body.textContent;
+  };
+
   return (
     <div className="single">
       <div className="content-single">
@@ -74,7 +79,7 @@ const Single = () => {
           )}
         </div>
         <h1 className="content-single-h1">{post.title}</h1>
-        {post.desc}
+        {getText(post.desc)}
       </div>
 
       <Menu category={post.category} id={post.id} />
